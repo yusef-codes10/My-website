@@ -29,12 +29,16 @@ nav {
   /* padding: 24px 32px; */
   display: flex;
   flex-direction: column;
+
+  border-radius: 16px;
 }
 
 .main-window header {
   background-color: #424242;
   padding: 0.5rem;
   color: #ffffff;
+  border-radius: 16px 16px 0 0;
+
 }
 
 .content {
