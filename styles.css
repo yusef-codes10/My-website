@@ -71,6 +71,12 @@ nav {
 .action i {
   display: block; /* forces icon to appear above text */
   font-size: 1.8rem; /* example size */
+  cursor: pointer;
+}
+
+.action i:hover {
+  font-size: 2rem;
+  transition: 1s;
 }
 
 .hidden {
