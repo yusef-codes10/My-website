@@ -72,11 +72,14 @@ nav {
   display: block; /* forces icon to appear above text */
   font-size: 1.8rem; /* example size */
   cursor: pointer;
+  transition: transform 0.3s ease; /* smooth hover */
+
 }
 
+
+/* ! This effet the box height, we better use scale() */
 .action i:hover {
-  font-size: 2rem;
-  transition: 1s;
+  transform: scale(1.2);
 }
 
 .hidden {
