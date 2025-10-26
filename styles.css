@@ -26,6 +26,8 @@ nav {
 }
 
 .main-window {
+  height: 410px;
+  width: 640px;
   border: 2px solid black;
   margin: 24px auto;
   /* padding: 24px 32px; */
@@ -36,6 +38,20 @@ nav {
 .main-window header {
   background-color: #424242;
   padding: 0.5rem;
+}
+
+.actions {
+  display: inline-flex;
+}
+
+.action {
+  display: inline-block;
+  text-align: center;
+  margin: 0 12px; /* optional spacing between icons */
+}
+.action i {
+  display: block; /* forces icon to appear above text */
+  font-size: 1.8rem; /* example size */
 }
 
 .hidden {
