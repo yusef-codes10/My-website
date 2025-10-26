@@ -16,10 +16,6 @@
   display: flex;
   flex-direction: column;
 }
-.hero-section {
-  border: 5px solid red;
-}
-
 
 nav {
   padding: 1rem 2rem;
@@ -38,10 +34,29 @@ nav {
 .main-window header {
   background-color: #424242;
   padding: 0.5rem;
+  color: #ffffff;
+}
+
+.content {
+  padding: 1rem 2rem;
+  margin: 34px auto;
+  text-align: center;
+  flex: 1;
+}
+.content .intro, .intro span {
+  font-size: 3rem;
+
+}
+
+.content .who {
+  font-size: 2rem;
+
 }
 
 .actions {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
 }
 
 .action {
