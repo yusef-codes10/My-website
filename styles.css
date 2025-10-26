@@ -22,3 +22,7 @@
 nav {
   padding: 1rem 2rem;
 }
+
+.hidden {
+  display: none;
+}
