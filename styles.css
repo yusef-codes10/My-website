@@ -13,6 +13,8 @@
   background-attachment: fixed; /* optional, for a parallax effect */
   z-index: 10;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .hero-section {
   border: 5px solid red;
@@ -21,6 +23,18 @@
 
 nav {
   padding: 1rem 2rem;
+}
+
+.main-window {
+  border: 2px solid black;
+  margin: 24px auto;
+  /* padding: 24px 32px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.main-window header {
+  background-color: hsla(0, 0%, 0%, 0.504);
 }
 
 .hidden {
