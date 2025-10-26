@@ -4,7 +4,7 @@
 
 ## 🔥 Preview
 
-![Nova Rebooted Screenshot](/images/green.png)
+![Nova Rebooted Screenshot](/images/demo.png)
 
 This is the prototyped version of my personal website. It was built entirely with **HTML and CSS** for now, focusing on layout, structure, and basic interactivity. The design is inspired by Charlene’s clean and minimal aesthetic.
 
