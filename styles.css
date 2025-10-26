@@ -34,7 +34,8 @@ nav {
 }
 
 .main-window header {
-  background-color: hsla(0, 0%, 0%, 0.504);
+  background-color: #424242;
+  padding: 0.5rem;
 }
 
 .hidden {
